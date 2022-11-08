@@ -24,6 +24,7 @@ public class DepositCalculator {
         int depositAmount = scanner.nextInt();
         System.out.println("Введите срок вклада в годах:");
         periodByDeposit = scanner.nextInt();
+
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         action = scanner.nextInt();
         double profitFromDeposit = 0;
